@@ -18,13 +18,13 @@ I used Realtor.com and Dayton's Craiglist site as my source for property listing
 
 To build the web scraper, I wrote a program that 1) extracted the html file from a given url, 2) parsed through the file to find key characteristics (e.g. address, price, etc.), 3) wrote those characteristics to a csv file, 4) and repeated that same process for each page of a search result. As my program progressed, I incorporated additional characteristics.
 
-To conduct analysis, I mapped my data points based on their longitude and latitude and overlayed U.S. census data on common indicators such as median household income, educational level of attainment, etc. I also use data visualization tools, such as scatter plots and pie charts to better understand the distribution of the data. All of my analysis was conducted in Microsoft Power BI.
+To conduct analysis, I mapped my data points based on their latitude and longitude and overlayed U.S. census data on common indicators such as median household income, educational level of attainment, etc. I also use data visualization tools, such as scatter plots and pie charts to better understand the distribution of the data. All of my analysis was conducted in Microsoft Power BI.
 
 ### Results & Conclusion
 
 Because this program had two distinct arms, the web scraper and data analysis/visualization, I will discuss my results separately.
 
-For the web scraper, I constructed a web scraper that collected the url, address, longitude, latitude, price, number of bathrooms, and number of bedrooms for each property.
+For the web scraper, I constructed a web scraper that collected the url, address, latitude, longitude, price, number of bathrooms, and number of bedrooms for each property.
 
 From the data analysis/visualization portion, there a couple of take-aways:
 
